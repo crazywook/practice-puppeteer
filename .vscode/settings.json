@@ -1,4 +1,5 @@
 {
-  "prettier.semi": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "mohsen1.prettify-json",
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true
 }

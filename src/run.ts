@@ -1,8 +1,8 @@
-import { captureScreen } from './lib/captureScreen'
+// import { captureScreen } from './lib/captureScreen'
 import { crawlGoogleSearchTitle } from './lib/crawlGoogleSearchTitle'
 
 try {
-  // captureScreen('https://google.com')
+  // captureScreen('https://gmarket.co.kr')
   crawlGoogleSearchTitle('devpools')
 } catch (e) {
   console.error(e)
