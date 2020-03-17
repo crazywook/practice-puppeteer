@@ -1,0 +1,1 @@
+type puppeteer = puppeteer
