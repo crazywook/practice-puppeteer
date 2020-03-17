@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import puppeteer from 'puppeteer'
-// import puppeteer from 'puppeteer'
 import { createPageEnterModule } from '../page'
 
 type ConnectionInfo = {

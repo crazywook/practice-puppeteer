@@ -1,6 +1,4 @@
-import moment from 'moment'
 import puppeteer from 'puppeteer'
-import path from 'path'
 
 (async() => {
 //브라우저 객체와 페이지 객체를 만들고
@@ -9,7 +7,7 @@ import path from 'path'
   // 구글 검색창 방문
   await page.goto('https://google.com', {waitUntil: 'networkidle0'})
   //개발 바보들에 대한 검색어를 입력하고
-  await page.type('devpools')
+  await page.type('input', 'devpools')
   // 검색버튼을 누르고
   await page.click('input[type="submit"]')
   //검색한 결과의 타이틀을 가져와서

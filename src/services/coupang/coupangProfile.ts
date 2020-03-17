@@ -1,6 +1,6 @@
-import { siteLogin } from '../lib/login'
+import { siteLogin } from '../../lib/login'
 import dotenv from 'dotenv'
-import { coupang } from '../../config/password/password.json'
+import { coupang } from '../../../config/password/password.json'
 
 dotenv.config({path: '../config'})
 

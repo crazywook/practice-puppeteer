@@ -12,7 +12,7 @@ export async function createPageEnterModule(
   const page = await browser.newPage()
   await page.goto(url)
 
-  return { 
+  return {
     browser,
     page,
   }
